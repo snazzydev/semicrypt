@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+
+    // ? testing
+    // border: 1px solid red;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @include respond(media-sm) {
+        font-size: 50%;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: $default-text-size;
+    color: $grey;
+    line-height: 1.5;
+
+
+    @include respond(media-sm) {
+        padding: 0;
+    }
+}

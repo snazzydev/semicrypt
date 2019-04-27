@@ -1,0 +1,7 @@
+.header {
+    position: relative;
+    height: 85vh;
+    background-color: $dirty-white;
+
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 83% 93%, 60% 85%, 38% 92%, 18% 84%, 0 93%);
+}
